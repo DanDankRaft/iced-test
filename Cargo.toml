@@ -1,0 +1,8 @@
+[package]
+name = "iced-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = { version = "0.12.0", features = ["debug", "lazy", "canvas", "svg"]}
+iced_runtime = "0.12.0"
